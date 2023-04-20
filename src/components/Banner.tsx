@@ -5,7 +5,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 
 const Banner: React.FC = () => {
-    return <div className='bg-[url("https://live.staticflickr.com/65535/52831507699_b1afaa71ff_c.jpg")] px-2 py-40 max-md:py-32'>
+    return <div className='bg-[url("https://live.staticflickr.com/65535/52831507699_b1afaa71ff_c.jpg")] bg-no-repeat bg-cover px-2 py-40 max-md:py-32'>
         <div className='max-w-[1400px] mx-auto '>
             <Row className='!justify-between max-md:!flex-col  max-md:space-y-10'>
                 <Col xl={12} lg={12} md={22} sm={22} xs={22} className='flex justify-start flex-col max-md:justify-center space-y-8 max-md:space-y-5 max-md:mx-auto'>
