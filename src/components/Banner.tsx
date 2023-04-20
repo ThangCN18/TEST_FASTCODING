@@ -5,11 +5,11 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 
 const Banner: React.FC = () => {
-    return <div className='bg-[url("./src/assets/images/bg-header.png")] px-2 py-40 max-md:py-32'>
+    return <div className='bg-[url("https://live.staticflickr.com/65535/52831507699_b1afaa71ff_c.jpg")] px-2 py-40 max-md:py-32'>
         <div className='max-w-[1400px] mx-auto '>
             <Row className='!justify-between max-md:!flex-col  max-md:space-y-10'>
                 <Col xl={12} lg={12} md={22} sm={22} xs={22} className='flex justify-start flex-col max-md:justify-center space-y-8 max-md:space-y-5 max-md:mx-auto'>
-                    <img src='./src/assets/images/logo.png' className='w-[200px] max-md:w-[140px] max-md:mx-auto' />
+                    <img src='https://coursesbe.s3.ap-southeast-1.amazonaws.com/868bc9e2-5c00-44b6-a793-1af2cba34742-logo.png' className='w-[200px] max-md:w-[140px] max-md:mx-auto' />
                     <h2 className='text-white text-5xl font-extralight max-md:text-center max-md:text-3xl'>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
                     <div className='w-[100px] h-[1px] rounded-2xl max-md:mx-auto bg-white'></div>
                     <p className='text-white text-base pr-20 max-md:pr-0 max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean

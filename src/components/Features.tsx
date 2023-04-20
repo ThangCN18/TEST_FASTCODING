@@ -47,7 +47,7 @@ const Features: React.FC = () => {
 
                 </Col>
                 <Col xl={8} lg={8} md={24} sm={24} xs={24} className='!h-[320px] max-md:space-y-7 flex flex-col justify-center !py-0 max-w-[400px] max-md:!w-[300px] rounded-lg max-md:mx-auto overflow-hidden'>
-                    <img src='./src/assets/images/city.png' className='w-[350px] max-md:w-[300px] max-md:mx-auto' />
+                    <img src='https://coursesbe.s3.ap-southeast-1.amazonaws.com/00a66731-e840-41bb-a912-303fe1909311-city.png' className='w-[350px] max-md:w-[300px] max-md:mx-auto' />
 
                 </Col>
             </Row>

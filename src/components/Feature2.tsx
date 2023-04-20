@@ -24,7 +24,7 @@ const Features2: React.FC = () => {
 
             <Row className='!justify-between max-md:!flex-col-reverse  max-md:space-y-10 items-center '>
                 <Col xl={12} lg={12} md={24} sm={24} xs={24} className=' shadow-xl max-w-[450px] !h-[270px] max-md:max-w-[300px] max-md:!h-[180px] p max-md:space-y-7  flex flex-col justify-center !py-0  rounded-lg max-md:mx-auto overflow-hidden'>
-                    <img src='./src/assets/images/tab-1.png' className='w-[100%] h-[100%] max-md:mx-auto max-md:mt-6' />
+                    <img src='https://live.staticflickr.com/65535/52831769578_6df76e97af.jpg' className='w-[100%] h-[100%] max-md:mx-auto max-md:mt-6' />
 
                 </Col>
                 <Col xl={12} lg={12} md={22} sm={22} xs={22} className='flex justify-start flex-col max-md:justify-center space-y-8 max-md:space-y-5 max-md:mx-auto'>

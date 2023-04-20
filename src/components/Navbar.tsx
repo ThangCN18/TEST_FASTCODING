@@ -22,7 +22,7 @@ const Navbar: React.FC<typeprops> = ({ open, setOpen }) => {
     return <Header className='bg-black h-[62px] p-2 max-md:h-[52px]  w-[100%] shadow-xl'>
         <div className='flex justify-between !items-center h-[100%] max-w-[1400px] mx-auto'>
             <div className="logo" >
-                <img src='./src/assets/images/logo.png' className='w-[100px] h-[30px] max-md:h-[26px] max-md:w-[80px]' />
+                <img src='https://coursesbe.s3.ap-southeast-1.amazonaws.com/868bc9e2-5c00-44b6-a793-1af2cba34742-logo.png' className='w-[100px] h-[30px] max-md:h-[26px] max-md:w-[80px]' />
             </div>
             <div className='flex justify-end !items-center space-x-3 max-md:hidden '>
                 <ScrollLink to="features" smooth={true}>

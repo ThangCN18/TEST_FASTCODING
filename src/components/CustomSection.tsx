@@ -5,7 +5,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 
 const CustomSection: React.FC = () => {
-    return <div className='bg-[url("./src/assets/images/bg-section.png")] px-2 py-20 max-md:py-10' id='reviews'>
+    return <div className='bg-[url("https://live.staticflickr.com/65535/52831324351_643a9b9a7c_h.jpg")] px-2 py-20 max-md:py-10' id='reviews'>
         <div className='max-w-[1400px] mx-auto  !flex !flex-col space-y-5'>
 
             <h2 className='text-white text-3xl font-extralight text-center max-md:text-2xl'>STYLISH AXURE DESIGN</h2>
