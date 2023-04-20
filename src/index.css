@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ant-input:focus {
+    @apply  !border-b-[1.8px]  !border-r-gray-100 !border-l-gray-100 !border-t-gray-100
+}
+
+.ant-input-status-error{
+    @apply  !border-b-[1.8px] !border-b-red-500  !border-r-gray-100 !border-l-gray-100 !border-t-gray-100 shadow-gray-500
+}
+.ant-input-status-error.ant-input:focus{ 
+    @apply  !border-b-[1.8px] !border-b-red-500 !border-r-gray-100 !border-l-gray-100 !border-t-gray-100 shadow-gray-500
+}
+.ant-input{
+    @apply border-white shadow-sm !border-r-gray-100 !border-l-gray-100 !border-t-gray-100
+}
+.ant-input:hover{
+    @apply border-white !border-r-gray-100 !border-l-gray-100 !border-t-gray-100
+}
+.ant-tabs-left >.ant-tabs-content-holder{
+    @apply border-none
+}
+.ant-tabs-card.ant-tabs-left >.ant-tabs-nav .ant-tabs-tab-active{
+    @apply !bg-orange-500 !text-2xl font-semibold !text-white
+}
+.ant-tabs-card.ant-tabs-left{
+    @apply text-white !text-2xl font-semibold  !rounded-none
+}
+.ant-tabs-nav .ant-tabs-tab{
+    @apply !text-white !text-2xl font-semibold !bg-gray-900 h-[100px] max-md:h-[50px] max-md:!mt-0 !rounded-none hover:!bg-orange-500
+}
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    @apply text-white
+}
+.ant-tabs >.ant-tabs-nav .ant-tabs-nav-list{
+    @apply max-md:!flex max-md:!flex-row max-md:!justify-center
+}
+.ant-list-split .ant-list-item{
+    @apply !border-none
+}
