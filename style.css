@@ -27,7 +27,7 @@ a {
 .header {
     background-color: var(--black-color);
     height: 74px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
 }
 
@@ -630,7 +630,7 @@ input[type="submit"]:hover {
 /* FOOTER */
 
 footer {
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
     background-color: var(--black-color);
 }
